@@ -1,0 +1,13 @@
+.button {
+	-fx-background-color : #0b5d90;
+	-fx-background-radius: 0%;
+}
+
+.button:hover {
+	-fx-text-fill : #ffffff;
+	-fx-background-color: #4c9bc9;
+}
+
+#textField {
+	-fx-border-color: #ffffff;
+}

@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="380.0" stylesheets="@../css/MyCSS.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <TextField fx:id="textField" editable="false" focusTraversable="false" prefHeight="100.0" prefWidth="380.0" text="0">
+         <font>
+            <Font name="Oswald Medium" size="30.0" />
+         </font></TextField>
+      <HBox prefHeight="100.0" prefWidth="380.0">
+         <children>
+            <Button fx:id="button7" focusTraversable="false" mnemonicParsing="false" onAction="#numButtons" prefHeight="80.0" prefWidth="95.0" text="7">
+               <font>
+                  <Font name="Oswald Medium" size="30.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></Button>
+            <Button fx:id="button8" focusTraversable="false" mnemonicParsing="false" onAction="#numButtons" prefHeight="80.0" prefWidth="95.0" text="8">
+               <font>
+                  <Font name="Oswald Medium" size="30.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></Button>
+            <Button fx:id="button9" focusTraversable="false" mnemonicParsing="false" onAction="#numButtons" prefHeight="80.0" prefWidth="95.0" text="9">
+               <font>
+                  <Font name="Oswald Medium" size="30.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></Button>
+            <Button focusTraversable="false" mnemonicParsing="false" onAction="#operatorButtons" prefHeight="80.0" prefWidth="95.0" text="/">
+               <font>
+                  <Font name="Oswald Medium" size="30.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></Button>
+         </children>
+      </HBox>
+      <HBox prefHeight="100.0" prefWidth="380.0">
+         <children>
+            <Button fx:id="button4" focusTraversable="false" mnemonicParsing="false" onAction="#numButtons" prefHeight="80.0" prefWidth="95.0" text="4">
+               <font>
+                  <Font name="Oswald Medium" size="30.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></Button>
+            <Button fx:id="button5" focusTraversable="false" mnemonicParsing="false" onAction="#numButtons" prefHeight="80.0" prefWidth="95.0" text="5">
+               <font>
+                  <Font name="Oswald Medium" size="30.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></Button>
+            <Button fx:id="button6" focusTraversable="false" mnemonicParsing="false" onAction="#numButtons" prefHeight="80.0" prefWidth="95.0" text="6">
+               <font>
+                  <Font name="Oswald Medium" size="30.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></Button>
+            <Button focusTraversable="false" mnemonicParsing="false" onAction="#operatorButtons" prefHeight="80.0" prefWidth="95.0" text="*">
+               <font>
+                  <Font name="Oswald Medium" size="30.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></Button>
+         </children>
+      </HBox>
+      <HBox prefHeight="100.0" prefWidth="380.0">
+         <children>
+            <Button fx:id="button1" focusTraversable="false" mnemonicParsing="false" onAction="#numButtons" prefHeight="80.0" prefWidth="95.0" text="1">
+               <font>
+                  <Font name="Oswald Medium" size="30.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></Button>
+            <Button fx:id="button2" focusTraversable="false" mnemonicParsing="false" onAction="#numButtons" prefHeight="80.0" prefWidth="95.0" text="2">
+               <font>
+                  <Font name="Oswald Medium" size="30.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></Button>
+            <Button fx:id="button3" focusTraversable="false" mnemonicParsing="false" onAction="#numButtons" prefHeight="80.0" prefWidth="95.0" text="3">
+               <font>
+                  <Font name="Oswald Medium" size="30.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></Button>
+            <Button focusTraversable="false" mnemonicParsing="false" onAction="#operatorButtons" prefHeight="80.0" prefWidth="95.0" text="-">
+               <font>
+                  <Font name="Oswald Medium" size="30.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></Button>
+         </children>
+      </HBox>
+      <HBox prefHeight="100.0" prefWidth="380.0">
+         <children>
+            <Button focusTraversable="false" mnemonicParsing="false" onAction="#clearButton" prefHeight="80.0" prefWidth="95.0" text="CL">
+               <font>
+                  <Font name="Oswald Medium" size="30.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></Button>
+            <Button fx:id="button0" focusTraversable="false" mnemonicParsing="false" onAction="#numButtons" prefHeight="80.0" prefWidth="95.0" text="0">
+               <font>
+                  <Font name="Oswald Medium" size="30.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></Button>
+            <Button focusTraversable="false" mnemonicParsing="false" onAction="#equalsButton" prefHeight="80.0" prefWidth="95.0" text="=">
+               <font>
+                  <Font name="Oswald Medium" size="30.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></Button>
+            <Button focusTraversable="false" mnemonicParsing="false" onAction="#operatorButtons" prefHeight="80.0" prefWidth="95.0" text="+">
+               <font>
+                  <Font name="Oswald Medium" size="30.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></Button>
+         </children>
+      </HBox>
+   </children>
+</VBox>
