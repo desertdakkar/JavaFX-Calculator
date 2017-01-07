@@ -4,8 +4,39 @@
 }
 
 .button:hover {
-	-fx-text-fill : #ffffff;
 	-fx-background-color: #4c9bc9;
+}
+
+#buttonDiv {
+	-fx-background-color: #067c3d;
+}
+
+#buttonDiv:hover {
+	-fx-background-color: #229d59;
+}
+
+#buttonMulti {
+	-fx-background-color: #067c3d;
+}
+
+#buttonMulti:hover {
+	-fx-background-color: #229d59;
+}
+
+#buttonMinus {
+	-fx-background-color: #067c3d;
+}
+
+#buttonMinus:hover {
+	-fx-background-color: #229d59;
+}
+
+#buttonPlus {
+	-fx-background-color: #067c3d;
+}
+
+#buttonPlus:hover {
+	-fx-background-color: #229d59;
 }
 
 #textField {
